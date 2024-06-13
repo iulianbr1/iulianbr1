@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(ka.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium';
+}
+.menu-bar {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: aqua;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: blue;
+    color: rgb(0, 81, 255);
+}
+.menu-bar ul li a {
+    border-image-source: url(bg.jpg);
+}
+.hello {
+    position: sticky;
+    height: 90px;
+    left: 0px;
+    width: 250px;
+}

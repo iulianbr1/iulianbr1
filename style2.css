@@ -1,0 +1,49 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.hero-section .content {
+    color: white;
+}
+.hero-section .content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+.hero-section .content p {
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+.hero-section .content button {
+    background: white;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.hero-section .content button:hover {
+    color: white;
+    background: orangered;
+}
+.img {
+    float: right;
+}

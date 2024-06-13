@@ -1,0 +1,148 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #222;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2 
+{
+    font-size: 3em;
+    color: white;
+    font-weight: 500;
+}
+.contact .content p
+{
+    color: white;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.container 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.container .contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+}
+.container .contactInfo .box .icon 
+{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: repeating-conic-gradient(from 27.5deg,#01dbc2 0%,#01dbc2 10%,transparent 10%,transparent 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .contactInfo .box .icon::before
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from 117.5deg,#01dbc2 0%,#01dbc2 10%,transparent 10%,transparent 50%);
+}
+.container .contactInfo .box .icon::after
+{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222;
+}
+.container .contactInfo .box .icon b
+{
+    position: absolute;
+    inset: 8px;
+    background: #01dbc2;
+    z-index: 2;
+}
+.container .contactInfo .box .icon i
+{
+    position: relative;
+    z-index: 1000;
+    color: #333;
+    font-size: 1.25em;
+}
+.container .contactInfo .box .text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: white;
+    font-family: 300;
+}
+.container .contactInfo .box .text h3
+{
+    font-weight: 500;
+    color: #01dbc2;
+}
+.container .contactInfo .txt 
+{
+    color: white;
+    margin-top: 50px;
+    font-weight: 500;
+    border-left: 50px solid #01dbc2;
+    padding-left: 10px;
+    line-height: 1em;
+}
+.container .contactInfo .sci
+{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+} 
+.container .contactInfo .sci li
+{
+    list-style: none;
+}
+.container .contactInfo .sci li a
+{
+    color: white;
+    font-size: 1.5em;
+    transition: 0.25s;
+}
+.container .contactInfo .sci li  a:hover
+{
+    color: #01dbc2;
+    filter: drop-shadow(0 0 5px #01dbc2);
+}
+.container .contactForm
+{
+    position: relative;
+    width: 40%;
+    background: repeating-conic-gradient(from 117.5 deg,#01dbc2 0%,#01dbc2 10%,transparent 10%,transparent 50%);
+    animation: animate 6s linear infinite;
+    padding: 60px;
+}   
